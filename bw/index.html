@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wobbling Paper with Final Message</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="paper-ball" id="paperBall">
+      <div class="content" id="content">
+        <div class="slide active">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1FJFgiqZCQI01jju5c9YLpfGxJbjAbjtJCA&s"
+            alt="Image 1" class="image">
+          <p class="caption">Caption 1</p>
+        </div>
+        <div class="slide">
+          <img
+            src="https://static.vecteezy.com/system/resources/thumbnails/034/332/558/small/ai-generated-studio-portrait-of-cute-little-baby-kid-of-different-nationalities-on-different-colors-background-photo.jpg"
+            alt="Image 2" class="image">
+          <p class="caption">Caption 2</p>
+        </div>
+        <div class="slide">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyYD5sMc6BYnfEJNaoEhHLuS0LIUE0GE0UqC4gZPTLvPQ9PvBq8a_y-FT_RItsteW6dM0&usqp=CAU"
+            alt="Image 3" class="image">
+          <p class="caption">Caption 3</p>
+        </div>
+        <div class="slide" id="slide4">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqGDEhjlTnNCvVQ9UeU1hP8oxXblxLsQs93Q7m85AgrsiVtVnzzmP3kOLvUDFTNVy_50U&usqp=CAU"
+            alt="Image 4" class="image">
+          <p class="caption">Caption 4</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hidden Final Message -->
+    <div class="final-message hidden" id="finalMessage">
+      <p>Dear Friend,</p>
+      <p>
+        I hope this day brings you joy and laughter. <br>
+        Here's to an amazing year ahead!
+      </p>
+      <p><strong>HBD!</strong></p>
+    </div>
+
+    <!-- Next Button -->
+    <button id="nextButton" class="show">Next</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
